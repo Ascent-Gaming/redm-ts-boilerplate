@@ -1,8 +1,18 @@
 const webpack = require('webpack');
 const path = require('path');
 const RemovePlugin = require('remove-files-webpack-plugin');
+const ESLintPlugin = require('eslint-webpack-plugin');
 
 const buildPath = path.resolve(__dirname, 'dist');
+
+const serverESLintOptions = {
+  context: "./",
+  files: "src/server/**",
+  extensions: [
+    "js",
+    "ts"
+  ],
+};
 
 const server = {
   entry: './src/server/server.ts',
@@ -10,7 +20,7 @@ const server = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: ['ts-loader', 'eslint-loader'],
+        use: ['ts-loader'],
         exclude: /node_modules/,
       },
     ],
@@ -28,7 +38,8 @@ const server = {
           path.resolve(buildPath, 'server')
         ]
       }
-    })
+    }),
+    new ESLintPlugin(serverESLintOptions)
   ],
   optimization: {
     minimize: true,
@@ -43,13 +54,22 @@ const server = {
   target: 'node',
 };
 
+const clientESLintOptions = {
+  context: "./",
+  files: "src/client/**",
+  extensions: [
+    "js",
+    "ts"
+  ],
+};
+
 const client = {
   entry: './src/client/client.ts',
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: ['ts-loader', 'eslint-loader'],
+        use: ['ts-loader'],
         exclude: /node_modules/,
       },
     ],
@@ -66,7 +86,8 @@ const client = {
           path.resolve(buildPath, 'client')
         ]
       }
-    })
+    }),
+    new ESLintPlugin(clientESLintOptions)
   ],
   optimization: {
     minimize: true,

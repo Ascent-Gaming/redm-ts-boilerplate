@@ -1,7 +1,7 @@
 <h1 align="center">RedM TypeScript Boilerplate</h1>
 
 <p align="center">
-  <i>A Typescript Boilerplate for RedM, forked from <a target="_blank" href="https://github.com/d0p3t/fivem-ts-boilerplate">FiveM-TS-Boilerplate</a></i>
+  <i>A TypeScript Boilerplate for RedM, forked from <a target="_blank" href="https://github.com/d0p3t/fivem-ts-boilerplate">FiveM-TS-Boilerplate</a></i>
   <br>
   <br>
   <a href="https://github.com/d0p3t/fivem-ts-boilerplate/blob/master/LICENSE">

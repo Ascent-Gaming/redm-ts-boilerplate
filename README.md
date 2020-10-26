@@ -23,15 +23,15 @@ This is a boilerplate for creating resources in TypeScript, for RedM. From its f
 If you wish to take advantage of TypeScript `4.x` features in FiveM, this boilerplate maybe suitable for you. I'm going to assume you know how to make that change yourself. *Hint, it includes the `fxmanifest.lua` file.*
 
 ## Usage
-1. Clone repository into your `resources/[local]` folder.
-2. `npm i` the dependencies.
-3. Start development.
+1. Clone repository into your `resources/[local]` folder. Or create a **Template** repository using GitHub.
+2. `yarn install` the dependencies.
+3. Start developing!
 
 ### Development
-Use `npm run watch` to watch files during development.
+Use `yarn run watch` to watch files during development.
 
 ### Production
-Build your production ready code with `npm run build`.
+Build your production ready code with `yarn run build`.
 
 This will build the client and server script with the `--mode production` flag.
 

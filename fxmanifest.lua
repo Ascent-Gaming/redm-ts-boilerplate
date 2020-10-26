@@ -5,6 +5,10 @@ name 'TypeScript Boilerplate'
 description 'An updated TypeScript boilerplate for RedM'
 author 'Ryan "Standal" Lockard'
 
+dependencies {
+  
+}
+
 client_scripts {
   'dist/client/*.client.js',
 }

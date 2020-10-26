@@ -1,9 +1,9 @@
 {
-  "name": "fivem-ts-boilerplate",
-  "version": "3.0.0",
-  "description": "Typescript Boilerplate for FiveM",
+  "name": "redm-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "Typescript Boilerplate for RedM",
   "main": "index.js",
-  "repository": "https://github.com/d0p3t/fivem-ts-boilerplate",
+  "repository": "https://github.com/Ascent-Gaming/redm-ts-boilerplate",
   "contributors": [
     {
       "name": "d0p3t",

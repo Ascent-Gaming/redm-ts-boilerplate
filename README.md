@@ -4,10 +4,10 @@
   <i>A TypeScript Boilerplate for RedM, forked from <a target="_blank" href="https://github.com/d0p3t/fivem-ts-boilerplate">FiveM-TS-Boilerplate</a></i>
   <br>
   <br>
-  <a href="https://github.com/d0p3t/fivem-ts-boilerplate/blob/master/LICENSE">
+  <a href="https://github.com/Ascent-Gaming/redm-ts-boilerplate/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat" alt="License: MIT">
   </a>
-  <a href="https://github.com/d0p3t/fivem-ts-boilerplate/commits/master">
+  <a href="https://github.com/Ascent-Gaming/redm-ts-boilerplate/commits/master">
     <img src="https://img.shields.io/github/last-commit/Ascent-Gaming/redm-ts-boilerplate.svg?style=flat" alt="Last commit">
   </a>
   <a href="">

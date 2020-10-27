@@ -1,6 +1,6 @@
 {
   "resource": {
-    "name": "TypeScript Boilerplate",
-    "logLevel": 1
+    "name": "TypeScript Template",
+    "version": "0.0.1"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "redm-ts-boilerplate.schema",
+  "title": "RedM TS Boilerplate",
+  "type": "object",
+  "definitions": {
+    "resource": {
+      "title": "Resource Metadata",
+      "description": "Metadata about your Resource, is not required unless you make it so.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "title": "Resource Name",
+          "description": "A unqiue name to identify this resource. It is optional whether this matches what is specified in fxmanifest.lua",
+          "type": "string"
+        },
+        "version": {
+          "title": "Resource Version",
+          "description": "Current version for your resource. The recommendation is to use SemVer.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "properties": {
+    "resource": {
+      "$ref": "#definitions/resource"
+    }
+  },
+  "required": []
+}

@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/schema",
-  "$id": "redm-ts-boilerplate.schema",
+  "$id": "software.locktech.redm-ts-boilerplate.schema",
   "title": "RedM TS Boilerplate",
   "type": "object",
   "definitions": {

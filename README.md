@@ -20,12 +20,14 @@ This is a boilerplate for creating resources in TypeScript, for RedM. From its f
 ***By using this boilerplate you agree to the following:***
 > I acknowledge that this is a prerelease build of RedM, and I am aware my resources *will* become incompatible once RedM ships.
 
-If you wish to take advantage of TypeScript `4.x` features in FiveM, this boilerplate maybe suitable for you. I'm going to assume you know how to make that change yourself. *Hint, it includes the `fxmanifest.lua` file.*
+## Installation
 
-## Usage
-1. Clone repository into your `resources/[local]` folder. Or create a **Template** repository using GitHub.
-2. `yarn install` the dependencies.
-3. Start developing!
+1. `clone` or download this repository into your server's `./resources/` directory.
+2. Rename the directory (or specify a name when `cloning`) to your liking.
+3. Aftering ensuring its installed, run `yarn install` in this resources's directory.
+4. Create your next RDR3 masterpiece using TypeScript!
+5. Build the resource using `yarn build`.
+6. `ensure` this resource *after* any of its dependencies.
 
 ### Development
 Use `yarn run watch` to watch files during development.

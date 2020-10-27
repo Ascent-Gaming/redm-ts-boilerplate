@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "redm-example.schema",
+  "title": "RedM Example Schema",
+  "type": "object",
+  "definitions": {
+
+  },
+  "allOf": [{ "$ref": "https://raw.githubusercontent.com/Ascent-Gaming/redm-ts-boilerplate/config.schema/redm-ts-boilerplate.schema.json" }],
+  "properties": {
+
+  },
+  "required": [
+
+  ]
+}

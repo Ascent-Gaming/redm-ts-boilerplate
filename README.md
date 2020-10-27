@@ -22,32 +22,12 @@ This is a boilerplate for creating resources in TypeScript, for RedM. From its f
 
 ## Installation
 
-1. `clone` or download this repository into your server's `./resources/` directory.
-2. Rename the directory (or specify a name when `cloning`) to your liking.
-3. Aftering ensuring its installed, run `yarn install` in this resources's directory.
-4. Create your next RDR3 masterpiece using TypeScript!
+1. Install all of the dependencies required by this resource.
+2. `clone` or download this repository into your server's `./resources/` directory.
+3. Rename the directory (or specify a name when `cloning`) to your liking.
+4. Aftering ensuring its installed, run `yarn install` in this resources's directory.
 5. Build the resource using `yarn build`.
 6. `ensure` this resource *after* any of its dependencies.
-
-### Development
-Use `yarn run watch` to watch files during development.
-
-### Production
-Build your production ready code with `yarn run build`.
-
-This will build the client and server script with the `--mode production` flag.
-
-### Automatic Builds (Optional)
-The `fxmanifest.lua` is not setup to automatically build upon first FXServer start. If you'd like to setup automatic builds you must add the following to your `fxmanifest.lua`.
-
-```lua
-dependency 'yarn'
-dependency 'webpack'
-
-webpack_config 'webpack.config.js'
-```
-
-However, due to the speed performance of the pre-packaged webpack/yarn of cfx-server-data, we suggest you don't do this and build manually as described previously ("Production").
 
 ## License
 This product is MIT licensed. Please make sure you give credit and include this license in your product.
